@@ -16,3 +16,14 @@ Utilize o código da demo Count e faça as seguintes mudanças:
 2. [Modules Composition](https://www.terraform.io/docs/modules/composition.html)
 3. [Creating Modules](https://www.terraform.io/docs/modules/index.html)
 4. [AWS datasources](https://www.terraform.io/docs/providers/aws/d/instances.html)
+
+terraform init
+
+ - "terraform workspace new dev"
+ - fazer o "terraform plan"
+ - fazer o "terraform apply --auto-approve"
+
+ - > "terraform workspace new prod"
+ - fazer o "terraform plan"
+ - fazer o terraform apply --auto-approve
+

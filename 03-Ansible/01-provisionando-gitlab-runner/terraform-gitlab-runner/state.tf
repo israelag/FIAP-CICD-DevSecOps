@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "teste-rafbarbo-12356"
+    bucket = "base-config-356773"
     key    = "gitlab-runner-fleet"
     region = "us-east-1"
   }
