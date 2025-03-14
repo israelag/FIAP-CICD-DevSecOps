@@ -6,9 +6,11 @@ Utilize o código da demo Count e faça as seguintes mudanças:
 2. Monte o arquivo que chama o módulo recem criado.
 3. Adicione estado remoto no S3 no arquivo que chama os módulos.
 4. Os nomes das maquinas definadas dentro do modulo devem ser de acordo com o ambiente do workspace. Ex: nginx-workspace-002
-5. O nome do ELB e do Securitygroup do módulo também devem conter o workspace
-6. Crie um ambiente de dev e um de prod
-7. Faça um zip dos arquivos desse exercicio e submeta no portal da fiap.
+   ${terraform.workspace}
+6. O nome do ELB e do Securitygroup do módulo também devem conter o workspace
+   ${terraform.workspace}
+8. Crie um ambiente de dev e um de prod
+9. Faça um zip dos arquivos desse exercicio e submeta no portal da fiap.
 
 
 #### Ajuda
